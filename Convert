@@ -1,0 +1,21 @@
+#include <iostream>
+
+int main() {
+
+// Assigning variables and type
+double distance;
+double kilo;
+
+// Asking user for miles 
+std::cout << "What is the distance in miles? ";
+
+// Assigning user input to 'distance'
+std::cin >> distance;
+
+// Calculate the differnce
+kilo = distance * 1.60934;
+
+// Display convertion to user
+std::cout << "The miles converts into " << kilo << " kilometers.\n";
+
+}
